@@ -8,10 +8,14 @@ public class Notas {
         int nota = scanner.nextInt();
 
 
-        if (nota >= 6) {
+        if (nota >= 6) 
             System.out.println("Aluno aprovado!");
+
+        else if (nota >= 5 && nota <7)
+            System.out.println("Prova de recuperação");
+        
             
-        }else
+        else
         System.out.println("Aluno Reprovado!");
 
         scanner.close();
