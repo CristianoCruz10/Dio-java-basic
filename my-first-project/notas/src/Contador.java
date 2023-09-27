@@ -9,7 +9,7 @@ public class Contador {
             int parametroDois = scanner.nextInt();
 
             try {
-                // Chamando o método contendo para a contagem
+                // Chamando o método para contagem
                 contar(parametroUm, parametroDois);
 
             } catch (IllegalArgumentException e) {
